@@ -1,0 +1,44 @@
+                @tailwind base;
+                @tailwind components;
+                @tailwind utilities;
+                @layer components {
+                    .align-element {
+                        @apply mx-auto max-w-7xl px-8;
+                    }
+                    /* .Background-Image {
+            @apply max-h-fit bg-gradient-to-r from-violet-500 to-fuchsia-50;
+         } */
+                    .Background-Image {
+                        @apply bg-[url('./src/img/7.gif')] bg-cover bg-center bg-clip-text text-9xl text-transparent;
+                    }
+                    .Text-Color {
+                        @apply text-slate-50;
+                    }
+                    /* .textColor {
+                        @apply rgba(0 0 0 0)
+                    } */
+                    /* .textColor {
+                        @apply 'rgba(var(--color-secondary), <alpha-value>)',
+                    } */
+                    .Background-Image-Title {
+                        @apply bg-[url('./1.gif')] bg-contain bg-center bg-clip-text text-9xl text-transparent;
+                    }
+                    .Background-Image-Paragraph {
+                        @apply bg-[url('./23.gif')] bg-contain bg-center bg-clip-text text-transparent;
+                    }
+                    .Background-Image-Paragraph-two {
+                        @apply bg-[url('./34.gif')] bg-contain bg-center bg-clip-text text-transparent;
+                    }
+                    .Background-Image-Paragraph-three {
+                        @apply bg-[url('./35.gif')] bg-contain bg-center bg-clip-text text-transparent;
+                    }
+                    .Background-Image-Title-HTML {
+                        @apply bg-[url('./1.gif')] bg-cover bg-center bg-clip-text text-xl text-transparent;
+                    }
+                    .Background-Image-Title-JS {
+                        @apply bg-[url('./2.gif')] bg-contain bg-center bg-clip-text text-2xl text-transparent;
+                    }
+                    .Background-Image-Title-React {
+                        @apply bg-[url('./17.gif')] bg-contain bg-center bg-clip-text text-2xl text-transparent;
+                    }
+                }
